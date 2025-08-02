@@ -1,0 +1,202 @@
+Submitting comprehensive verification request: {full_name: 'Belkacem Merzouk', detailed_address: 'SOUMAM', national_id: File, phone_number: '+213665718452', specialization: 'residential', …}additional_info: ""certifications: ""description: ""detailed_address: "SOUMAM"education: "architecture "experience_years: "0-1"full_name: "Belkacem Merzouk"national_id: File {name: '565656565.PNG', lastModified: 1745779196221, lastModifiedDate: Sun Apr 27 2025 19:39:56 GMT+0100 (heure normale d’Afrique de l’Ouest), webkitRelativePath: '', size: 125706, …}phone_number: "+213665718452"portfolio_url: "https://web.facebook.com/MisterMDev/"project_description: "plan se satilite "sample_project: File {name: 'مدرسة قرآنية سيدي بوتخيل.jpg', lastModified: 1748334136601, lastModifiedDate: Tue May 27 2025 09:22:16 GMT+0100 (heure normale d’Afrique de l’Ouest), webkitRelativePath: '', size: 215993, …}software_proficiency: (6) ['AutoCAD', 'Photoshop', 'ArchiCAD', 'SketchUp', 'V-Ray', '3ds Max']specialization: "residential"specialization_description: "architecte . designer "terms_accepted: true[[Prototype]]: Object
+verificationService.ts:243 Error fetching verification request: FirebaseError: The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/botccpgrip/firestore/indexes?create_composite=Clhwcm9qZWN0cy9ib3RjY3BncmlwL2RhdGFiYXNlcy8oZGVmYXVsdCkvY29sbGVjdGlvbkdyb3Vwcy92ZXJpZmljYXRpb25fcmVxdWVzdHMvaW5kZXhlcy9fEAEaCgoGdXNlcklkEAEaEAoMc3VibWl0dGVkX2F0EAIaDAoIX19uYW1lX18QAg
+overrideMethod @ hook.js:608
+getVerificationByUserId @ verificationService.ts:243
+await in getVerificationByUserId
+hasExistingVerification @ verificationService.ts:307
+handleVerificationSubmit @ Dashboard.tsx:291
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:310 Error checking existing verification: FirebaseError: The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/botccpgrip/firestore/indexes?create_composite=Clhwcm9qZWN0cy9ib3RjY3BncmlwL2RhdGFiYXNlcy8oZGVmYXVsdCkvY29sbGVjdGlvbkdyb3Vwcy92ZXJpZmljYXRpb25fcmVxdWVzdHMvaW5kZXhlcy9fEAEaCgoGdXNlcklkEAEaEAoMc3VibWl0dGVkX2F0EAIaDAoIX19uYW1lX18QAg
+overrideMethod @ hook.js:608
+hasExistingVerification @ verificationService.ts:310
+await in hasExistingVerification
+handleVerificationSubmit @ Dashboard.tsx:291
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:110 🔄 Starting verification submission for user: tAfoEHITaoeQ0TyfUHtBuWNx2yi2
+verificationService.ts:117 📤 Uploading national ID...
+verificationService.ts:85  POST https://firebasestorage.googleapis.com/v0/b/botccpgrip.appspot.com/o?name=verification%2FtAfoEHITaoeQ0TyfUHtBuWNx2yi2%2Fnational_id_1754145544528_565656565.PNG 403 (Forbidden)
+send @ firebase_storage.js?v=f4f1e501:1498
+doTheRequest @ firebase_storage.js?v=f4f1e501:456
+(anonymous) @ firebase_storage.js?v=f4f1e501:279
+setTimeout
+callWithDelay @ firebase_storage.js?v=f4f1e501:277
+start @ firebase_storage.js?v=f4f1e501:337
+start_ @ firebase_storage.js?v=f4f1e501:510
+(anonymous) @ firebase_storage.js?v=f4f1e501:432
+NetworkRequest @ firebase_storage.js?v=f4f1e501:429
+makeRequest @ firebase_storage.js?v=f4f1e501:562
+_makeRequest @ firebase_storage.js?v=f4f1e501:2417
+makeRequestWithTokens @ firebase_storage.js?v=f4f1e501:2430
+await in makeRequestWithTokens
+uploadBytes$1 @ firebase_storage.js?v=f4f1e501:2146
+uploadBytes @ firebase_storage.js?v=f4f1e501:2442
+uploadFile @ verificationService.ts:85
+submitVerificationRequest @ verificationService.ts:118
+handleVerificationSubmit @ Dashboard.tsx:300
+await in handleVerificationSubmit
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:96 Error uploading file: FirebaseError: Firebase Storage: User does not have permission to access 'verification/tAfoEHITaoeQ0TyfUHtBuWNx2yi2/national_id_1754145544528_565656565.PNG'. (storage/unauthorized)
+overrideMethod @ hook.js:608
+uploadFile @ verificationService.ts:96
+await in uploadFile
+submitVerificationRequest @ verificationService.ts:118
+handleVerificationSubmit @ Dashboard.tsx:300
+await in handleVerificationSubmit
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:183 ❌ Error submitting verification request: Error: Failed to upload national_id: Firebase Storage: User does not have permission to access 'verification/tAfoEHITaoeQ0TyfUHtBuWNx2yi2/national_id_1754145544528_565656565.PNG'. (storage/unauthorized)
+    at VerificationService.uploadFile (verificationService.ts:97:13)
+    at async VerificationService.submitVerificationRequest (verificationService.ts:118:34)
+    at async handleVerificationSubmit (Dashboard.tsx:300:22)
+overrideMethod @ hook.js:608
+submitVerificationRequest @ verificationService.ts:183
+await in submitVerificationRequest
+handleVerificationSubmit @ Dashboard.tsx:300
+await in handleVerificationSubmit
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:189  DELETE https://firebasestorage.googleapis.com/v0/b/botccpgrip.appspot.com/o/verification%2FtAfoEHITaoeQ0TyfUHtBuWNx2yi2%2Fnational_id_1754145547838_565656565.PNG 403 (Forbidden)
+send @ firebase_storage.js?v=f4f1e501:1498
+doTheRequest @ firebase_storage.js?v=f4f1e501:456
+(anonymous) @ firebase_storage.js?v=f4f1e501:279
+setTimeout
+callWithDelay @ firebase_storage.js?v=f4f1e501:277
+start @ firebase_storage.js?v=f4f1e501:337
+start_ @ firebase_storage.js?v=f4f1e501:510
+(anonymous) @ firebase_storage.js?v=f4f1e501:432
+NetworkRequest @ firebase_storage.js?v=f4f1e501:429
+makeRequest @ firebase_storage.js?v=f4f1e501:562
+_makeRequest @ firebase_storage.js?v=f4f1e501:2417
+makeRequestWithTokens @ firebase_storage.js?v=f4f1e501:2430
+await in makeRequestWithTokens
+deleteObject$1 @ firebase_storage.js?v=f4f1e501:2232
+deleteObject @ firebase_storage.js?v=f4f1e501:2474
+submitVerificationRequest @ verificationService.ts:189
+await in submitVerificationRequest
+handleVerificationSubmit @ Dashboard.tsx:300
+await in handleVerificationSubmit
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:196 Error cleaning up files: FirebaseError: Firebase Storage: User does not have permission to access 'verification/tAfoEHITaoeQ0TyfUHtBuWNx2yi2/national_id_1754145547838_565656565.PNG'. (storage/unauthorized)
+overrideMethod @ hook.js:608
+submitVerificationRequest @ verificationService.ts:196
+await in submitVerificationRequest
+handleVerificationSubmit @ Dashboard.tsx:300
+await in handleVerificationSubmit
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+Dashboard.tsx:348 ❌ Error submitting verification: Error: Failed to upload national_id: Firebase Storage: User does not have permission to access 'verification/tAfoEHITaoeQ0TyfUHtBuWNx2yi2/national_id_1754145544528_565656565.PNG'. (storage/unauthorized)
+    at handleVerificationSubmit (Dashboard.tsx:311:15)
+overrideMethod @ hook.js:608
+handleVerificationSubmit @ Dashboard.tsx:348
+await in handleVerificationSubmit
+callCallback2 @ react-dom_client.js?v=f4f1e501:3674
+invokeGuardedCallbackDev @ react-dom_client.js?v=f4f1e501:3699
+invokeGuardedCallback @ react-dom_client.js?v=f4f1e501:3733
+invokeGuardedCallbackAndCatchFirstError @ react-dom_client.js?v=f4f1e501:3736
+executeDispatch @ react-dom_client.js?v=f4f1e501:7014
+processDispatchQueueItemsInOrder @ react-dom_client.js?v=f4f1e501:7034
+processDispatchQueue @ react-dom_client.js?v=f4f1e501:7043
+dispatchEventsForPlugins @ react-dom_client.js?v=f4f1e501:7051
+(anonymous) @ react-dom_client.js?v=f4f1e501:7174
+batchedUpdates$1 @ react-dom_client.js?v=f4f1e501:18913
+batchedUpdates @ react-dom_client.js?v=f4f1e501:3579
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=f4f1e501:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom_client.js?v=f4f1e501:5478
+dispatchEvent @ react-dom_client.js?v=f4f1e501:5472
+dispatchDiscreteEvent @ react-dom_client.js?v=f4f1e501:5449Understand this error
+verificationService.ts:234  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?VER=8&database=projects%2Fbotccpgrip%2Fdatabases%2F(default)&gsessionid=i8jCstpKUxe6fyIdRLDWIEG-3gHQhcU8ovm0VqLKqTw&SID=CTag1UXmuuoWTkPsAAL8Sg&RID=9044&TYPE=terminate&zx=4u50ieqqar7n 400 (Bad Request)
